@@ -1,6 +1,6 @@
 name: PingPlayer
 main: com.github.hank9999.PingPlayer.PingPlayer
-version: 1.0
+version: 1.0.1
 author: hank9999
 
 permissions:

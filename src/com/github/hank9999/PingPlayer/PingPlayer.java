@@ -17,7 +17,7 @@ public class PingPlayer extends JavaPlugin {
     public void onEnable() {
         plugin = this;
         this.getLogger().info(ChatColor.BLUE + "获取玩家Ping值插件已启用");
-        this.getLogger().info(ChatColor.GOLD + "版本v1.0");
+        this.getLogger().info(ChatColor.GOLD + "版本v1.0.1");
         Bukkit.getPluginCommand("ping").setExecutor(new ping());
     }
 
