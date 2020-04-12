@@ -11,7 +11,7 @@ import org.bukkit.entity.Player;
 public class ping implements CommandExecutor {
     public boolean onCommand(CommandSender commandSender, Command command, String s, String[] strings) {
         if (command.getName().equalsIgnoreCase("ping")) {
-            if (commandSender.getName().equalsIgnoreCase("CONSOLE")) {
+            if (commandSender.getName().equalsIgnoreCase("CONSOLE") && (strings.length == 0)) {
                 commandSender.sendMessage(ChatColor.translateAlternateColorCodes('&', "Use &7/ping <players> &rto get player's ping."));
                 return true;
             }
