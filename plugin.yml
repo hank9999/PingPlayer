@@ -1,0 +1,13 @@
+name: PingPlayer
+main: com.github.hank9999.PingPlayer.PingPlayer
+version: 1.0
+author: hank9999
+
+permissions:
+  PingPlayer.ping:
+    description: Allow you to get a player's ping.
+    default: op
+
+commands:
+  ping:
+    description: Get a player's ping.
